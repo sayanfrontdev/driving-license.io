@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Progress Bar Example</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 class = "center" style="color: white;">Driving License</h1>
+  <div class="outer_container">
+    <div id="progress-bar">
+      <div id="progress"></div>
+    </div>
+    <h2 class="center">Lets Get Started!</h2>
+    <p class="center m-4" >Enter details as per your registered records</p>
+    <div class="inputContainer">
+      <div id="questions">
+        <!-- Question 1 -->
+        <div class="question">
+          <label for="input1">Place where Driving License was issued</label>
+          <input style="margin: 10px;" type="text" id="input1" class= "inputtext" placeholder="Enter Place Name">
+        </div>
+    
+        <div class="question">
+            <label for="select1">Issued Year Of License</label>
+            <select id="select1">
+            <option value="">Choose Issued Year Of License</option>
+            <option value="option1">Option 1</option>
+            <option value="option2">Option 2</option>
+            </select>
+        </div>
+        <!-- Question 6 -->
+        <div class="question">
+            <label for="select1">Type of Previous Driving License</label>
+            <select id="select1">
+            <option value="">Choose Expired Year Of License</option>
+            <option value="option1">Option 1</option>
+            <option value="option2">Option 2</option>
+            </select>
+        </div>
+        </div>
+      </div>
+
+    </div>
+    <div style="display: flex;justify-content: center;"><button class="btn btn-orange center">  < &nbsp <b>Back</b> </button></div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
